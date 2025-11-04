@@ -1,28 +1,3 @@
----
-title: Image-Attention-Visualizer
-emoji: 🔥
-colorFrom: blue
-colorTo: purple
-sdk: gradio
-app_file: app.py
-license: mit
-pinned: true
-tags:
-  - gradio
-  - pytorch
-  - computer-vision
-  - nlp
-  - multimodal
-  - vision-language
-  - image-to-text
-  - attention
-  - attention-visualization
-  - interpretability
-  - explainability
-  - xai
-  - demo
----
-
 # [Github repo](https://github.com/devMuniz02/Image-Attention-Visualizer)
 # [TRY IT NOW ON HUGGING FACE SPACES !!](https://huggingface.co/spaces/manu02/image-attention-visualizer)
 
