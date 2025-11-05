@@ -509,10 +509,10 @@ with gr.Blocks(theme=gr.themes.Soft()) as demo:
             btn_generate = gr.Button("Generate", variant="primary")
 
             gr.Markdown("### 3) Attention")
-            check_mean_layers = gr.Checkbox(True, label="Mean Across Layers")
-            check_mean_heads = gr.Checkbox(True, label="Mean Across Heads")
-            slider_layer = gr.Slider(0, max(0, L - 1), value=0, step=1, label="Layer", interactive=False)
-            slider_head  = gr.Slider(0, max(0, H - 1), value=0, step=1, label="Head",  interactive=False)
+            check_mean_layers = gr.Checkbox(False, label="Mean Across Layers")
+            check_mean_heads = gr.Checkbox(False, label="Mean Across Heads")
+            slider_layer = gr.Slider(0, max(0, L - 1), value=0, step=1, label="Layer", interactive=True)
+            slider_head  = gr.Slider(0, max(0, H - 1), value=0, step=1, label="Head",  interactive=True)
 
         with gr.Column(scale=3):
             # Three views row
