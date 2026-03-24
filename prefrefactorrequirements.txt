@@ -1,0 +1,6 @@
+transformers
+gradio
+torch
+torchvision
+fsspec
+matplotlib
